@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+font-family: 'Open Sans', sans-serif;
+}
+
+.bar{
+    width: 168px;
+    height: 22px;
+    background-color: #106E32;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 100px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 45px;
+    margin: 20px 0px;
+}
+
+
+
+
+header .line{
+    background-color: #106E32;
+    height: 10px;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.header--area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.header-left img {
+    width: 64px;
+    height: 64px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.header--search form{
+    display: flex;
+}
+
+
+.header--search input{
+    font-size: 16px;
+    padding: 8px 15px;
+    border: 1px solid #999;
+    outline: none;
+    color: #707070;
+    width: 100%;
+    max-width: 250px;
+}
+
+.header--search button{
+    border:0;
+    background: transparent;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.header--search button img{
+    width:16px;
+    height: 16px;
+}
+
+.header--menu{
+    margin-left: 50px;
+}
+
+.header--menu img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.banner{
+    background-image: url('../imagem/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.banner--imagens img{
+    margin-top: 60px;
+    width: 146px;
+    height: 146px;
+    border: 6px solid  #106E32;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.section-grid1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "area1 area3"
+        "area2 area3";
+    
+}
+
+.area1{
+    padding: 90px;
+    grid-area: area1;
+}
+
+.area1--text1 {
+    margin: 30px 0px;
+}
+
+.area1--text2{
+    margin-bottom: 50px;
+    line-height: 27px;
+
+}
+
+.button{
+   display: inline-block;
+   border: 2px solid #454545;
+   padding: 10px 30px;
+   border-radius: 3px;
+   color: #454545;
+   text-decoration: none;
+}
+
+.button:hover{
+    color: #fff;
+    background-color: #454545;
+}
+
+.area2{
+    background-image: url('../imagem/f2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    grid-area: area2;
+
+}
+
+.area3{
+    background-image: url('../imagem/f1.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-area: area3;
+}
+
